@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "rubymod:ruby"
+  },
+  "result": {
+    "item": "rubymod:ruby_sword"
+  }
+}

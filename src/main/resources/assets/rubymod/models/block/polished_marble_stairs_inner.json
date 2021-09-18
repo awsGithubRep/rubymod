@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rubymod:blocks/polished_marble_block",
+    "top": "rubymod:blocks/polished_marble_block",
+    "side": "rubymod:blocks/polished_marble_block"
+  }
+}

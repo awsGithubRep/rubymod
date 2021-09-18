@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "rrr",
+    "rer",
+    "rrr"
+  ],
+  "key":
+  {
+    "r":
+    {
+      "item": "rubymod:ruby_block"
+    },
+    "e":
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result":
+  {
+    "item": "rubymod:ruby_apple",
+    "count": 1
+  }
+}

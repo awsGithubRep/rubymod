@@ -1,0 +1,37 @@
+{
+  "crystal_break": {
+    "category": "blocks",
+    "subtitle": "rubymod.crystal_break",
+    "sounds": [
+      "rubymod:crystal_break"
+    ]
+  },
+  "crystal_place": {
+    "category": "blocks",
+    "subtitle": "rubymod.crystal_place",
+    "sounds": [
+      "rubymod:crystal_place"
+    ]
+  },
+  "crystal_step": {
+    "category": "blocks",
+    "subtitle": "rubymod.crystal_step",
+    "sounds": [
+      "rubymod:crystal_step"
+    ]
+  },
+  "crystal_fall": {
+    "category": "blocks",
+    "subtitle": "rubymod.crystal_fall",
+    "sounds": [
+      "rubymod:crystal_fall"
+    ]
+  },
+  "crystal_hit": {
+    "category": "blocks",
+    "subtitle": "rubymod.crystal_hit",
+    "sounds": [
+      "rubymod:crystal_hit"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mm ",
+    "mm ",
+    "   "
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "rubymod:malachite"
+    }
+  },
+  "result":
+  {
+    "item": "rubymod:malachite_block",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  ",
+    "  ",
+    "mmm"
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "rubymod:polished_marble_block"
+    }
+  },
+  "result":
+  {
+    "item": "rubymod:polished_marble_slab",
+    "count": 6
+  }
+}
