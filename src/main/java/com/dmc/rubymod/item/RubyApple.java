@@ -17,8 +17,8 @@ public class RubyApple extends SimpleFoiledItem {
                         .effect(new EffectInstance(Effects.REGENERATION, 800, 4), 1)
                         .effect(new EffectInstance(Effects.FIRE_RESISTANCE, 6000, 0), 1)
                         .effect(new EffectInstance(Effects.RESISTANCE, 6000, 1), 1)
-                        .effect(new EffectInstance(Effects.JUMP_BOOST, 1200, 2), 1)
-                        .effect(new EffectInstance(Effects.STRENGTH, 1100,2),1)
+                        .effect(new EffectInstance(Effects.JUMP_BOOST, 1200, 1), 1)
+                        .effect(new EffectInstance(Effects.STRENGTH, 1100,1),1)
                         .setAlwaysEdible()
                         .build()));
     }

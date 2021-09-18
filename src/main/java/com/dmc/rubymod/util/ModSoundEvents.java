@@ -17,7 +17,7 @@ public class ModSoundEvents {
     public static void register(IEventBus eventBus) {
         SOUND_EVENTS.register(eventBus);
     }
-    // Sounds
+    // Crystal
     public static final RegistryObject<SoundEvent> CRYSTAL_BREAK =
             registerSoundEvent("crystal_break");
     public static final RegistryObject<SoundEvent> CRYSTAL_PLACE =
@@ -28,4 +28,16 @@ public class ModSoundEvents {
             registerSoundEvent("crystal_fall");
     public static final RegistryObject<SoundEvent> CRYSTAL_HIT =
             registerSoundEvent("crystal_hit");
+    // Marble
+    public static final RegistryObject<SoundEvent> MARBLE_BREAK =
+            registerSoundEvent("marble_break");
+    public static final RegistryObject<SoundEvent> MARBLE_PLACE =
+            registerSoundEvent("marble_place");
+    public static final RegistryObject<SoundEvent> MARBLE_STEP =
+            registerSoundEvent("marble_step");
+    public static final RegistryObject<SoundEvent> MARBLE_FALL =
+            registerSoundEvent("marble_fall");
+    public static final RegistryObject<SoundEvent> MARBLE_HIT =
+            registerSoundEvent("marble_hit");
+
 }

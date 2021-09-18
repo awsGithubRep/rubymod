@@ -77,16 +77,23 @@ public class ModBlocks {
     public static final RegistryObject<Block> MARBLE_BLOCK = registerBlock("marble_block", MarbleBlock::new);
     public static final RegistryObject<Block> POLISHED_MARBLE_BLOCK = registerBlock("polished_marble_block",
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(1)
+                    .harvestLevel(2)
                     .setRequiresTool()
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2.5f,3f)
                     .sound(SoundType.STONE)));
+    public static final RegistryObject<Block> MARBLE_ORE = registerBlock("marble_ore",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .harvestLevel(2)
+                    .setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE)
+                    .hardnessAndResistance(3.1f,4f)
+                    .sound(ModSoundType.MARBLE)));
     // Marble Stairs/Slabs
     public static final RegistryObject<Block> MARBLE_STAIRS = registerBlock("marble_stairs",
             () -> new StairsBlock(() -> MARBLE_BLOCK.get().getDefaultState(),
                     AbstractBlock.Properties.create(Material.ROCK)
-                            .harvestLevel(1)
+                            .harvestLevel(2)
                             .setRequiresTool()
                             .harvestTool(ToolType.PICKAXE)
                             .hardnessAndResistance(2.5f,3f)
@@ -94,21 +101,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_MARBLE_STAIRS = registerBlock("polished_marble_stairs",
             () -> new StairsBlock(() -> MARBLE_BLOCK.get().getDefaultState(),
                     AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(1)
+                    .harvestLevel(2)
                     .setRequiresTool()
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2.5f,3f)
                     .sound(SoundType.STONE)));
     public static final RegistryObject<Block> MARBLE_SLAB = registerBlock("marble_slab",
             () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(1)
+                    .harvestLevel(2)
                     .setRequiresTool()
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2.5f,3f)
                     .sound(SoundType.STONE)));
     public static final RegistryObject<Block> POLISHED_MARBLE_SLAB = registerBlock("polished_marble_slab",
             () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(1)
+                    .harvestLevel(2)
                     .setRequiresTool()
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2.5f,3f)
@@ -116,7 +123,7 @@ public class ModBlocks {
     // Marble Wall
     public static final RegistryObject<Block> MARBLE_WALL = registerBlock("marble_wall",
             () -> new WallBlock(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(1)
+                    .harvestLevel(2)
                     .setRequiresTool()
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2.5f,3f)

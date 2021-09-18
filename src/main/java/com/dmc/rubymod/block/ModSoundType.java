@@ -7,6 +7,7 @@ import java.util.function.Supplier;
 
 public class ModSoundType extends ForgeSoundType {
     public static final ForgeSoundType CRYSTAL = new ForgeSoundType(1.0F, 1.5F, ModSoundEvents.CRYSTAL_BREAK, ModSoundEvents.CRYSTAL_STEP, ModSoundEvents.CRYSTAL_PLACE, ModSoundEvents.CRYSTAL_HIT, ModSoundEvents.CRYSTAL_FALL);
+    public static final ForgeSoundType MARBLE = new ForgeSoundType(1.2F, 1.5F, ModSoundEvents.MARBLE_BREAK, ModSoundEvents.MARBLE_STEP, ModSoundEvents.MARBLE_PLACE, ModSoundEvents.MARBLE_HIT, ModSoundEvents.MARBLE_FALL);
     public ModSoundType(float volumeIn,
                         float pitchIn,
                         Supplier<SoundEvent> breakSoundIn,

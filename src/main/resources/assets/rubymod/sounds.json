@@ -63,20 +63,64 @@
     "category": "blocks",
     "subtitle": "rubymod.crystal_hit",
     "sounds": [
-      "rubymod:step1",
-      "rubymod:step2",
-      "rubymod:step3",
-      "rubymod:step4",
-      "rubymod:step5",
-      "rubymod:step6",
-      "rubymod:step7",
-      "rubymod:step8",
-      "rubymod:step9",
-      "rubymod:step10",
-      "rubymod:step11",
-      "rubymod:step12",
-      "rubymod:step13",
-      "rubymod:step14"
+      "rubymod:break1",
+      "rubymod:break2",
+      "rubymod:break3",
+      "rubymod:break4"
+    ]
+  },
+  "marble_break": {
+    "category": "blocks",
+    "subtitle": "rubymod.marble_break",
+    "sounds": [
+      "rubymod:marble_break1",
+      "rubymod:marble_break2",
+      "rubymod:marble_break3",
+      "rubymod:marble_break4"
+    ]
+  },
+  "marble_step": {
+    "category": "blocks",
+    "subtitle": "rubymod.marble_step",
+    "sounds": [
+      "rubymod:marble_step1",
+      "rubymod:marble_step2",
+      "rubymod:marble_step3",
+      "rubymod:marble_step4",
+      "rubymod:marble_step5",
+      "rubymod:marble_step6"
+    ]
+  },
+  "marble_fall": {
+    "category": "blocks",
+    "subtitle": "rubymod.marble_fall",
+    "sounds": [
+      "rubymod:marble_step1",
+      "rubymod:marble_step2",
+      "rubymod:marble_step3",
+      "rubymod:marble_step4",
+      "rubymod:marble_step5",
+      "rubymod:marble_step6"
+    ]
+  },
+  "marble_place": {
+    "category": "blocks",
+    "subtitle": "rubymod.marble_place",
+    "sounds": [
+      "rubymod:marble_place1",
+      "rubymod:marble_place2",
+      "rubymod:marble_place3",
+      "rubymod:marble_place4"
+    ]
+  },
+  "marble_hit": {
+    "category": "blocks",
+    "subtitle": "rubymod.marble_hit",
+    "sounds": [
+      "rubymod:marble_break1",
+      "rubymod:marble_break2",
+      "rubymod:marble_break3",
+      "rubymod:marble_break4"
     ]
   }
 }
