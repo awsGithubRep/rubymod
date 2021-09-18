@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "rubymod:malachite_wall",
-    "rubymod:marble_wall",
-    "rubymod:polished_marble_wall"
-  ]
-}

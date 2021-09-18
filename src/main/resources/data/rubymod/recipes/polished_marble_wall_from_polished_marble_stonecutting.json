@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "rubymod:polished_marble_block"
-  },
-  "result": "rubymod:polished_marble_wall",
-  "count": 1
-}

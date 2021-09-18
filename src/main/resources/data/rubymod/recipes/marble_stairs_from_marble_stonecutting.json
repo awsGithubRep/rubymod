@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "rubymod:marble_block"
-  },
-  "result": "rubymod:marble_stairs",
-  "count": 1
-}

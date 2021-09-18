@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "rubymod:blocks/polished_marble_block",
-    "top": "rubymod:blocks/polished_marble_block",
-    "side": "rubymod:blocks/polished_marble_block"
-  }
-}

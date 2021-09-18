@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "rubymod:malachite_block"
-  },
-  "result": "rubymod:malachite_wall",
-  "count": 1
-}
