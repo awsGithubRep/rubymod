@@ -10,12 +10,15 @@ import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
+    public static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, RubyMod.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, RubyMod.MOD_ID);
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -39,7 +42,11 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(5f,6f)
                     .sound(SoundType.METAL)));
+    public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block",
+            () -> new BlockItem(ModBlocks.RUBY_BLOCK.get(), new Item.Properties().group(ModItemGroup.RUBYMOD_GROUP).isImmuneToFire()));
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", RubyOre::new);
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore",
+            () -> new BlockItem(ModBlocks.RUBY_ORE.get(), new Item.Properties().group(ModItemGroup.RUBYMOD_GROUP).isImmuneToFire()));
     // Malachite
     public static final RegistryObject<Block> MALACHITE_BLOCK = registerBlock("malachite_block",
             () -> new Block(AbstractBlock.Properties.create(Material.IRON)
@@ -82,13 +89,7 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2.5f,3f)
                     .sound(SoundType.STONE)));
-    public static final RegistryObject<Block> MARBLE_ORE = registerBlock("marble_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2)
-                    .setRequiresTool()
-                    .harvestTool(ToolType.PICKAXE)
-                    .hardnessAndResistance(3.1f,4f)
-                    .sound(ModSoundType.MARBLE)));
+    public static final RegistryObject<Block> MARBLE_ORE = registerBlock("marble_ore", MarbleOre::new);
     // Marble Stairs/Slabs
     public static final RegistryObject<Block> MARBLE_STAIRS = registerBlock("marble_stairs",
             () -> new StairsBlock(() -> MARBLE_BLOCK.get().getDefaultState(),

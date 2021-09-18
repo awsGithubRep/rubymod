@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_leggings"
   },
   "addition": {
-    "item": "cmd:ruby"
+    "item": "rubymod:ruby"
   },
   "result": {
-    "item": "cmd:ruby_leggings"
+    "item": "rubymod:ruby_leggings"
   }
 }

@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_boots"
   },
   "addition": {
-    "item": "cmd:ruby"
+    "item": "rubymod:ruby"
   },
   "result": {
-    "item": "cmd:ruby_boots"
+    "item": "rubymod:ruby_boots"
   }
 }

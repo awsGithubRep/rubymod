@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_helmet"
   },
   "addition": {
-    "item": "cmd:ruby"
+    "item": "rubymod:ruby"
   },
   "result": {
-    "item": "cmd:ruby_helmet"
+    "item": "rubymod:ruby_helmet"
   }
 }
