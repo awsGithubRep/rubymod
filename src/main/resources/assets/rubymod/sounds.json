@@ -3,35 +3,80 @@
     "category": "blocks",
     "subtitle": "rubymod.crystal_break",
     "sounds": [
-      "rubymod:crystal_break"
+      "rubymod:break1",
+      "rubymod:break2",
+      "rubymod:break3",
+      "rubymod:break4"
     ]
   },
   "crystal_place": {
     "category": "blocks",
     "subtitle": "rubymod.crystal_place",
     "sounds": [
-      "rubymod:crystal_place"
+      "rubymod:place1",
+      "rubymod:place2",
+      "rubymod:place3",
+      "rubymod:place4"
     ]
   },
   "crystal_step": {
     "category": "blocks",
     "subtitle": "rubymod.crystal_step",
     "sounds": [
-      "rubymod:crystal_step"
+      "rubymod:step1",
+      "rubymod:step2",
+      "rubymod:step3",
+      "rubymod:step4",
+      "rubymod:step5",
+      "rubymod:step6",
+      "rubymod:step7",
+      "rubymod:step8",
+      "rubymod:step9",
+      "rubymod:step10",
+      "rubymod:step11",
+      "rubymod:step12",
+      "rubymod:step13",
+      "rubymod:step14"
     ]
   },
   "crystal_fall": {
     "category": "blocks",
     "subtitle": "rubymod.crystal_fall",
     "sounds": [
-      "rubymod:crystal_fall"
+      "rubymod:step1",
+      "rubymod:step2",
+      "rubymod:step3",
+      "rubymod:step4",
+      "rubymod:step5",
+      "rubymod:step6",
+      "rubymod:step7",
+      "rubymod:step8",
+      "rubymod:step9",
+      "rubymod:step10",
+      "rubymod:step11",
+      "rubymod:step12",
+      "rubymod:step13",
+      "rubymod:step14"
     ]
   },
   "crystal_hit": {
     "category": "blocks",
     "subtitle": "rubymod.crystal_hit",
     "sounds": [
-      "rubymod:crystal_hit"
+      "rubymod:step1",
+      "rubymod:step2",
+      "rubymod:step3",
+      "rubymod:step4",
+      "rubymod:step5",
+      "rubymod:step6",
+      "rubymod:step7",
+      "rubymod:step8",
+      "rubymod:step9",
+      "rubymod:step10",
+      "rubymod:step11",
+      "rubymod:step12",
+      "rubymod:step13",
+      "rubymod:step14"
     ]
   }
 }
